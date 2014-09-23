@@ -14,11 +14,22 @@ text-transform: uppercase;
 letter-spacing: 2px;
 }
 
+.navbar-brand:hover{
+  color:black !important;
+}
+
 .navbar-default .navbar-nav>li>a {
 color: white;
-margin: 0 10px 0 10px;
+margin: 0 5px 0 5px;
 font-size: 12px;
 }
+
+.loginsignup{
+color: white;
+font-weight: bold;
+font-size: 12px;
+}
+
 
 .navigation{
   font-family: 'Open Sans', sans-serif;
@@ -50,9 +61,49 @@ h3{
   text-align: center;
 }
 
-
-.buckets-wrapper{
-  padding: 100px 50px 100px 50px;
-  margin-top: 60px;
+.herocontent-wrapper{
+  padding-top: 50px;
 }
 
+.bucket-header{
+  padding: 40px 0 40px 0;
+
+}
+
+.buckets-wrapper{
+  padding: 20px 40px 100px 40px;
+  margin: 0px 50px 0 50px;
+}
+
+.buckets-icon{
+  padding: 30px 0 30px 0;
+}
+
+.buckets-caption{
+  margin: 0 20px 0 20px;
+}
+
+.btn-link {
+font-weight: bold;
+color: #3399FF;
+cursor: pointer;
+border-radius: 0;
+}
+
+.btn-link:hover{
+  text-decoration: none;
+  color: #297ACC;
+}
+
+#btn-default-hero {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: black;
+  border: none;
+  border-radius: 0px;
+  padding: 10px 15px 10px 15px;
+  margin-bottom: 30px;
+}
