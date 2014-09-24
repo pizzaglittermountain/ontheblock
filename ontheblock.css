@@ -192,6 +192,17 @@ text-align: center;
 background-color: #09a5d8;
 }
 
+.slider-handle {
+  position: absolute;
+  width: 15px;
+  height: 25px;
+  margin-top: -10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: white;
+  border: 1px solid #BDBDBD;
+}
+
 .list-group-item.active, .list-group-item.active:focus {
 font-family: 'Open Sans', sans-serif;
 text-align: center;
